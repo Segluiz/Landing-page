@@ -24,6 +24,11 @@
     flex:  1 1 30rem;
 }
 
+.card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
 .card h2{
     font-size: 2.5rem;
     padding: 1rem 0;
