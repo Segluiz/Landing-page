@@ -1,0 +1,60 @@
+.sessao-funcionalidade{
+    margin-top: 5%;
+}
+
+.sessao-funcionalidade h1{
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.sessao-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 1rem;
+    text-align: center;
+    padding: 2rem 4rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    flex:  1 1 30rem;
+}
+
+.card h2{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.card p{
+    font-size: 1.3rem;
+    color: #666;
+    padding: 1rem;
+}
+
+.card button{
+    color: #000000;
+    background:transparent;
+    font-weight: bolder;
+}
+
+.card button:hover{
+    background: #a7a71b;
+}
+
+.sessao-funcionalidade .card p{
+    color: #000000;
+}
+
+.sessao-funcionalidade .card h2{
+    color: #000000;
+}
+
+@media (max-width:900px) {
+    .sessao-funcionalidade{
+        margin-top: 20%;
+    }
+}

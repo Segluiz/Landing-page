@@ -1,0 +1,68 @@
+.sessao-service h1{
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.sessao-service{
+    background: #192a56;
+}
+
+
+.sessao-service .sessao-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.sessao-service .card{
+    margin: 1rem;
+    text-align: center;
+    padding: 2rem 4rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    flex:  1 1 30rem;
+}
+
+
+.sessao-service .card h2{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+
+.sessao-service .card p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.sessao-service .card button{
+    color: #fff;
+}
+
+.sessao-service .card button:hover{
+      background: #fff;
+}
+
+.sessao-service .card:hover{
+    background:#fff;
+}
+
+.sessao-service .card:hover p{
+    color: #000;
+}
+
+.sessao-service .card:hover h2{
+    color: #000;
+}
+
+
+.sessao-service .card:hover button{
+    color: #000;
+}
+
